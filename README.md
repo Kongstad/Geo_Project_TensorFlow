@@ -9,21 +9,21 @@ _By Peter Kongstad_
 
 #### February 2018: ####
 --------------------------------------------------------------
-- [x] Project startup approved\
-- [x] Basic TensorFlow tutorials completed\
-- [x] Progress documented in /files/process.docx\
+- [x] Project startup approved
+- [x] Basic TensorFlow tutorials completed
+- [x] Progress documented in /files/process.docx
 
 #### March 2018: ####
 --------------------------------------------------------------
-- [ ] TensorFlow succesfully operational with GPU Support:\
-  - [x] OS: Linux Ubuntu 16.04\
-  - [x] Python: 3.5\
-  - [x] Handler: Anaconda Navigator 4.5.0\
-  - [ ] TensorFlow: \
-  - [ ] CUDA: \
-  - [ ] CuDNN: \
-- [ ] Geological feature chosen for experiment\
-- [ ] Sufficient satellite imagery collected\
+- [ ] TensorFlow succesfully operational with GPU Support:
+  - [x] OS: Linux Ubuntu 16.04
+  - [x] Python: 3.5
+  - [x] Handler: Anaconda Navigator 4.5.0
+  - [ ] TensorFlow: 
+  - [ ] CUDA: 
+  - [ ] CuDNN: 
+- [ ] Geological feature chosen for experiment
+- [ ] Sufficient satellite imagery collected
 
 #### April 2018: ####
 --------------------------------------------------------------
