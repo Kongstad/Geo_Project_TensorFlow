@@ -7,17 +7,18 @@ _By Peter Kongstad_
 ### Project overview: ###
 
 #### February 2018: ####
- * Project startup approved\
-* Basic TensorFlow tutorials completed\
-* Progress documented in /files/process.docx\
+--------------------------------------------------------------
+- [x] Project startup approved\
+- [x] Basic TensorFlow tutorials completed\
+- [x] Progress documented in /files/process.docx\
 
 #### March 2018: ####
-
-TensorFlow succesfully operational with GPU Support:\
-* OS: Linux Ubuntu 16.04\
-* Python: 3.5\
-* Handler: Anaconda Navigator 4.5.0\
-* TensorFlow: \
-* CUDA: \
-* CuDNN: 
+--------------------------------------------------------------
+- [ ] TensorFlow succesfully operational with GPU Support:\
+- [x] OS: Linux Ubuntu 16.04\
+- [x] Python: 3.5\
+- [x] Handler: Anaconda Navigator 4.5.0\
+- [ ] TensorFlow: \
+- [ ] CUDA: \
+- [ ] CuDNN: 
 
