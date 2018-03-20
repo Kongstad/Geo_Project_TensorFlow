@@ -20,12 +20,12 @@ This is a repository for a semester course on using TensorFlow for image recogni
        <summary>Modification</summary>
        <p>A slight modification in the Software & Updates panel is required. In the sub-menu <b>Additional drivers</b>, I had to disable the Ubuntu Nouveau display driver and instead opt for the program to the setting: <b>Using Nvidia binary - driver</b>. This makes sure that there is no driver conflict.</p>
        </details>
-  - [x] Python: 3.5
   - [x] Handler: Anaconda Navigator 4.5.0
        <details>
        <summary>Installation</summary>
        <p>Anaconda Navigator was downloaded from <a href="https://www.anaconda.com/download/#linux">their website</a> and    thereafter updated to version 4.5.0 by using the navigator automatic updating platform. Then I proceeded to create a new  python environment in the Anaconda directory, to install TensorFlow into - which I name tensorflow. This was done by the using the command <b>"conda create -n tensorflow pip python=3.6" </b>. I then activate the newly created environment by typing <b>source activate tensorflow</b>. Now Anaconda is primed for TensorFlow to be installed. However, CUDA and CuDNN should installed first. </p>
       </details>
+  - [x] Python: 3.6 - Installed in the Anaconda environment.
   - [ ] CUDA: 
        <details>
        <summary>Installation</summary>
