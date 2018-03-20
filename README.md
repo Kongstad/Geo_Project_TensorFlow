@@ -18,6 +18,10 @@ This is a repository for a semester course on using TensorFlow for image recogni
   - [x] OS: Linux Ubuntu 16.04
   - [x] Python: 3.5
   - [x] Handler: Anaconda Navigator 4.5.0
+      <details>
+       <summary>Installation</summary>
+       <p>Ananconda Navigator was downloaded from <a href="https://www.anaconda.com/download/#linux">their website</a> and    thereafter updated to version 4.5.0 by using the navigator automatic updating platform. Then I proceeded to create a new  python environment in the Anaconda directory, to install TensorFlow into. This was done by the using the command "conda create -n tensorflow pip python=3.6"  </p>
+      </details>
   - [ ] TensorFlow: 
   - [ ] CUDA: 
   - [ ] CuDNN: 
