@@ -18,7 +18,7 @@ This is a repository for a semester course on using TensorFlow for image recogni
   - [x] OS: Linux Ubuntu 16.04
        <details>
        <summary>Modification</summary>
-       <p>A slight modification in the Software & Updates panel is required. In the sub-menu Additional drivers. I disabled the Ubuntu Nouveau display driver and instead opted for the program to <b>Using Nvidia binary - driver</b>. This makes sure that there is no driver conflict.</p>
+       <p>A slight modification in the Software & Updates panel is required. In the sub-menu <b>Additional drivers</b>, I had to disable the Ubuntu Nouveau display driver and instead opt for the program to the setting: <b>Using Nvidia binary - driver</b>. This makes sure that there is no driver conflict.</p>
        </details>
   - [x] Python: 3.5
   - [x] Handler: Anaconda Navigator 4.5.0
