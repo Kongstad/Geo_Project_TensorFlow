@@ -2,7 +2,7 @@
 Geological Project - TensorFlow for interpretating satellite imagery
 
 #### Description: ####
-This is a repository for a semester course on using TensorFlow for image recognition of satellite imagery. 
+This is a repository for a semester course on using TensorFlow for image recognition of satellite imagery.  
 _By Peter Kongstad_
 
 ### Project overview: ###
