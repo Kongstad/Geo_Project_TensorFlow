@@ -20,11 +20,11 @@ This is a repository for a semester course on using TensorFlow for image recogni
   - [x] Handler: Anaconda Navigator 4.5.0
       <details>
        <summary>Installation</summary>
-       <p>Ananconda Navigator was downloaded from <a href="https://www.anaconda.com/download/#linux">their website</a> and    thereafter updated to version 4.5.0 by using the navigator automatic updating platform. Then I proceeded to create a new  python environment in the Anaconda directory, to install TensorFlow into. This was done by the using the command "conda create -n tensorflow pip python=3.6"  </p>
+       <p>Anaconda Navigator was downloaded from <a href="https://www.anaconda.com/download/#linux">their website</a> and    thereafter updated to version 4.5.0 by using the navigator automatic updating platform. Then I proceeded to create a new  python environment in the Anaconda directory, to install TensorFlow into - which I name tensorflow. This was done by the using the command <b>"conda create -n tensorflow pip python=3.6" </b>. I then activate the newly created environment by typing <b>source activate tensorflow</b>. Now Anaconda is primed for TensorFlow to be installed. However, CUDA and CuDNN should installed first. </p>
       </details>
-  - [ ] TensorFlow: 
   - [ ] CUDA: 
   - [ ] CuDNN: 
+  - [ ] TensorFlow: 
 - [ ] Geological feature chosen for experiment
 - [ ] Sufficient satellite imagery collected
 
