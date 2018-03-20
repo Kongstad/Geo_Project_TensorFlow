@@ -1,10 +1,10 @@
-## Project name: Geological Project - TensorFlow for interpretating satellite imagery
+## Project name: \
+Geological Project - TensorFlow for interpretating satellite imagery
 
-#### Description: This is a repository for a semester course on using TensorFlow for image recognition of satellite imagery.
-
+#### Description: This is a repository for a semester course on using TensorFlow for image recognition of satellite imagery.\
 By Peter Kongstad
 
-### Project overview:
+### Project overview: \
 
 #### February 2018:
 ----------------------------------------------------
@@ -17,7 +17,7 @@ By Peter Kongstad
 TensorFlow succesfully operational with GPU Support:\
 *OS: Linux Ubuntu 16.04\
 *Python: 3.5\
-*Handler: Anaconda\
+*Handler: Anaconda Navigator 4.5.0\
 *TensorFlow: \
 *CUDA: \
 *CuDNN: \
