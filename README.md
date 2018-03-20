@@ -3,7 +3,6 @@ Geological Project - TensorFlow for interpretating satellite imagery
 
 #### Description: ####
 This is a repository for a semester course on using TensorFlow for image recognition of satellite imagery.  
-_By Peter Kongstad_
 
 ### Project overview: ###
 
@@ -34,3 +33,10 @@ _By Peter Kongstad_
 #### May 2018: ####
 --------------------------------------------------------------
 - [ ] Conclusion of project and finishing of GitHub setup
+
+
+##### Student info: #####
+Name: Peter Kongstad  
+Field of study: Geoscience - 10th semester  
+University: Aarhus University
+Contact: kongstad@geo.au.dk
