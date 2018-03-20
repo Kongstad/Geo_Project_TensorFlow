@@ -16,6 +16,10 @@ This is a repository for a semester course on using TensorFlow for image recogni
 --------------------------------------------------------------
 - [ ] TensorFlow succesfully operational with GPU Support:
   - [x] OS: Linux Ubuntu 16.04
+       <details>
+       <summary>Modification</summary>
+       <p>A slight modification in the Software & Updates panel is required. In the sub-menu Additional drivers. I disabled the Ubuntu Nouveau display driver and instead opted for the program to <b>Using Nvidia binary - driver</b>. This makes sure that there is no driver conflict.</p>
+       </details>
   - [x] Python: 3.5
   - [x] Handler: Anaconda Navigator 4.5.0
        <details>
@@ -25,7 +29,7 @@ This is a repository for a semester course on using TensorFlow for image recogni
   - [ ] CUDA: 
        <details>
        <summary>Installation</summary>
-       <p>Anaconda</p>
+       <p>Before installing CUDA, I went into Software & Updates folder in the Ubuntu system.</p>
        </details>
   - [ ] CuDNN: 
        <details>
