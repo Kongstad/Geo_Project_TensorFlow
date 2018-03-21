@@ -49,7 +49,7 @@ This is a repository for a semester course on using TensorFlow for image recogni
   - [x] Python: 3.6
         <details>
         <summary>Installation</summary>
-        <p>I have installed python3.6 through Anaconda Navigator by creating a new  python environment in the Anaconda directory, to install TensorFlow into - which I named tensorflow. This was done by the using the command <b>"conda create -n tensorflow pip python=3.6" </b>. I then activate the newly created environment by typing <b>source activate tensorflow</b>. Now Anaconda is primed for TensorFlow to be installed </p>
+        <p>I have installed python3.6 through Anaconda Navigator by creating a new  python environment in the Anaconda directory, to install TensorFlow into - which I named tensorflow. This was done by the using the command <b>"conda create -n tensorflow pip python=3.6" </b>. I then activate the newly created environment by typing <b>source activate tensorflow</b>. I then launch the Anaconda Navigator and install the Spyder editor in the tensorflow environment. With Anaconda now all setup, Tensorflow can be installed </p>
          </details>
   - [x] TensorFlow:
           <details>
