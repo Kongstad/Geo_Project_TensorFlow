@@ -26,12 +26,12 @@ This is a repository for a semester course on using TensorFlow for image recogni
        <p>Anaconda Navigator was downloaded from <a href="https://www.anaconda.com/download/#linux">their website</a> and    thereafter updated to version 4.5.0 by using the navigator automatic updating platform. Then I proceeded to create a new  python environment in the Anaconda directory, to install TensorFlow into - which I name tensorflow. This was done by the using the command <b>"conda create -n tensorflow pip python=3.6" </b>. I then activate the newly created environment by typing <b>source activate tensorflow</b>. Now Anaconda is primed for TensorFlow to be installed. However, CUDA and CuDNN should installed first. </p>
       </details>
   - [x] Python: 3.6 - Installed in the Anaconda environment.
-  - [ ] CUDA: 
+  - [x] CUDA: 
        <details>
        <summary>Installation</summary>
        <p>I've proceeded to the CUDA 9.0 website to download this specific version, as it should work better with this setup. I've downloaded CUDA 9.0 from <a href="https://developer.nvidia.com/cuda-90-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1604&target_type=deblocal">here</a>. I've chosen the Linux version, with x86_64, for Ubuntu 16.04 and the installer as a deb(local) type. Then I've launched the following terminal commands for download and correct installation<br> 
          <b>
-         1. Set the directory to the folder with the downloaded CUDA file.
+         1. Set the directory to the folder with the downloaded CUDA file.<br>
          2. sudo dpkg -i cuda-repo-ubuntu1604-9-0-local_9.0.176-1_amd64.deb<br> 
          3. sudo apt-key add /var/cuda-repo-9-0-local/7fa2af80.pub<br> 
          4. sudo apt-get update<br> 
