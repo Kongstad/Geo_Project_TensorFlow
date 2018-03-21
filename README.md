@@ -89,10 +89,10 @@ This is a repository for my semester project on using Google TensorFlow for Deep
 - [ ] Conclusion of project and finishing of GitHub setup
 
 
-##### Student info: #####
+#### Student info: #####
 <b>Name</b>: Peter Kongstad  
 <b>Field of study</b>: Geoscience - 10th semester  
-<b>University</b>: Aarhus University
+<b>University</b>: Aarhus University  
 <b>Contact</b>: kongstad@geo.au.dk  
 <b>Primary Supervisor</b>: Christoffer Karoff - Department of Geoscience & Department of Physics.  
 <b>Secondary Supervisor</b>: Rune Hylsberg - Departmen of Engineering.  
