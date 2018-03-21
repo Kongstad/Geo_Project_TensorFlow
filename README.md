@@ -29,7 +29,12 @@ This is a repository for a semester course on using TensorFlow for image recogni
   - [ ] CUDA: 
        <details>
        <summary>Installation</summary>
-       <p>Before installing CUDA, I went into Software & Updates folder in the Ubuntu system.</p>
+       <p>I've proceeded to the CUDA 9.0 website to download this specific version, as it should work better with this setup. I've downloaded CUDA 9.0 from <a href="https://developer.nvidia.com/cuda-90-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1604&target_type=deblocal">here</a>. I've chosen the Linux version, with x86_64, for Ubuntu 16.04 and the installer as a deb(local) type. Then I've launched the following terminal commands for download and correct installation<br> 
+         1. sudo dpkg -i cuda-repo-ubuntu1604-9-0-local_9.0.176-1_amd64.deb - Which first is directed to the Downloads folder.<br> 
+         2. sudo apt-key add /var/cuda-repo-9-0-local/7fa2af80.pub<br> 
+         3. sudo apt-get update<br> 
+         4. sudo apt-get install cuda<br> 
+  </p>
        </details>
   - [ ] CuDNN: 
        <details>
