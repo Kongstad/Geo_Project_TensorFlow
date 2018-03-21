@@ -25,7 +25,7 @@ This is a repository for a semester course on using TensorFlow for image recogni
          <summary>Installation</summary>
         <p>Anaconda Navigator was downloaded from <a href="https://www.anaconda.com/download/#linux">their website</a> and    thereafter updated to version 4.5.0 by using the navigator automatic updating platform.</p>
         </details>
- - [x] CUDA: 
+ - [x] CUDA: 9.0
          <details>
         <summary>Installation</summary>
         <p>I've proceeded to the CUDA 9.0 website to download this specific version, as it should work better with this setup. I've downloaded CUDA 9.0 from <a href="https://developer.nvidia.com/cuda-90-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1604&target_type=deblocal">here</a>. I've chosen the Linux version, with x86_64, for Ubuntu 16.04 and the installer as a deb(local) type. Then I've launched the following terminal commands for download and correct installation<br> 
@@ -39,9 +39,9 @@ This is a repository for a semester course on using TensorFlow for image recogni
          <b> export PATH=/usr/local/cuda-9.1/bin${PATH:+:${PATH}}</b> In addition, when using the runfile installation method, the LD_LIBRARY_PATH variable needs to contain /usr/local/cuda-9.1/lib64 on a 64-bit system.To change the environment variables for 64-bit operating systems, enter the following in a terminal window:<br>
          <b> export LD_LIBRARY_PATH=/usr/local/cuda-9.1/lib64\
            ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}</b>
-  </p>
+         </p>
          </details>
- - [x] CuDNN: 9.0
+ - [x] CuDNN: 7.0.5
          <details>
          <summary>Installation</summary>
          <p>In order to download cuDNN, a Nvidia developer membership is required. This can freely be obtained by simply registrating on their website. I've done so and proceed to download the file at this <a href="https://developer.nvidia.com/rdp/cudnn-download">website</a>. The file I've used for this is the one labelled <a href="https://developer.nvidia.com/compute/machine-learning/cudnn/secure/v7.0.5/prod/9.0_20171129/Ubuntu16_04-x64/libcudnn7_7.0.5.15-1+cuda9.0_amd64">cuDNN v7.0.5 Runtime Library for Ubuntu16.04 (Deb)</a>. Once this file is downloaded. I double click it to initiate the software installer.</p>
