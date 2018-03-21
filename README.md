@@ -15,17 +15,17 @@ This is a repository for a semester course on using TensorFlow for image recogni
 #### March 2018: ####
 --------------------------------------------------------------
 - [ ] TensorFlow succesfully operational with GPU Support:
- - [x] OS: Linux Ubuntu 16.04
+  - [x] OS: Linux Ubuntu 16.04
          <details>
          <summary>Modification</summary>
          <p>A slight modification in the Software & Updates panel is required. In the sub-menu <b>Additional drivers</b>, I had to disable the Ubuntu Nouveau display driver and instead opt for the program to the setting: <b>Using Nvidia binary - driver</b>. This makes sure that there is no driver conflict.</p>
          </details>
- - [x] Handler: Anaconda Navigator 4.5.0
+  - [x] Handler: Anaconda Navigator 4.5.0
          <details>
          <summary>Installation</summary>
         <p>Anaconda Navigator was downloaded from <a href="https://www.anaconda.com/download/#linux">their website</a> and    thereafter updated to version 4.5.0 by using the navigator automatic updating platform.</p>
         </details>
- - [x] CUDA: 9.0
+  - [x] CUDA: 9.0
          <details>
         <summary>Installation</summary>
         <p>I've proceeded to the CUDA 9.0 website to download this specific version, as it should work better with this setup. I've downloaded CUDA 9.0 from <a href="https://developer.nvidia.com/cuda-90-download-archive?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1604&target_type=deblocal">here</a>. I've chosen the Linux version, with x86_64, for Ubuntu 16.04 and the installer as a deb(local) type. Then I've launched the following terminal commands for download and correct installation<br> 
@@ -41,20 +41,20 @@ This is a repository for a semester course on using TensorFlow for image recogni
            ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}</b>
          </p>
          </details>
- - [x] CuDNN: 7.0.5
+  - [x] CuDNN: 7.0.5
          <details>
          <summary>Installation</summary>
          <p>In order to download cuDNN, a Nvidia developer membership is required. This can freely be obtained by simply registrating on their website. I've done so and proceed to download the file at this <a href="https://developer.nvidia.com/rdp/cudnn-download">website</a>. The file I've used for this is the one labelled <a href="https://developer.nvidia.com/compute/machine-learning/cudnn/secure/v7.0.5/prod/9.0_20171129/Ubuntu16_04-x64/libcudnn7_7.0.5.15-1+cuda9.0_amd64">cuDNN v7.0.5 Runtime Library for Ubuntu16.04 (Deb)</a>. Once this file is downloaded. I double click it to initiate the software installer.</p>
          </details>
- - [x] Python: 3.6
+  - [x] Python: 3.6
         <details>
         <summary>Installation</summary>
         <p>I have installed python3.6 through Anaconda Navigator by creating a new  python environment in the Anaconda directory, to install TensorFlow into - which I named tensorflow. This was done by the using the command <b>"conda create -n tensorflow pip python=3.6" </b>. I then activate the newly created environment by typing <b>source activate tensorflow</b>. Now Anaconda is primed for TensorFlow to be installed </p>
          </details>
- - [x] TensorFlow:
+  - [x] TensorFlow:
           <details>
          <summary>Installation</summary>
-         <p>Now TensorFlow can be installed into the Anaconda environment, previously created and named tensorflow. Remember to activate the environment before doing this by using the command <b>source activate tensorflow</b>. Now the use the following terminal command to install the GPU supported version of tensorflow. <b>pip install --ignore-installed --upgrade https: //storage.googleapis.c om/tensorflow/linux/gpu/tensorflow_gpu-1.6.0-cp36-cp36m-linux_x86_64.whl</b> Note that this is the correct tensorflow for python 3.6, by its denomination cp36.</p>
+         <p>Now in order to install Tensorflow, I use the following terminal command to install the GPU supported version <b>pip install --ignore-installed --upgrade https: //storage.googleapis.c om/tensorflow/linux/gpu/tensorflow_gpu-1.6.0-cp36-cp36m-linux_x86_64.whl</b> Note that this is the correct tensorflow for python 3.6, by its denomination cp36.</p>
          </details>
 - [ ] Geological feature chosen for experiment
 - [ ] Sufficient satellite imagery collected
