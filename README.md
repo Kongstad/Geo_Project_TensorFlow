@@ -1,8 +1,8 @@
 ## Project name: ##
-Geological Project - TensorFlow for interpretating satellite imagery
+Geological Project - Employing Google TensorFlow for image recognition of satellite imagery.
 
 #### Description: ####
-This is a repository for a semester course on using TensorFlow for image recognition of satellite imagery.  
+This is a repository for my semester project on using Google TensorFlow for Deep Neural Learning, Raster Vision for object detection on GeoJSON files and Rasterio for data handling. The end goal is to create a script that allows for image recognition of satellite imagery and documenting the process here.  
 
 ### Project overview: ###
 
@@ -10,10 +10,11 @@ This is a repository for a semester course on using TensorFlow for image recogni
 --------------------------------------------------------------
 - [x] Project startup approved
 - [x] Basic TensorFlow tutorials completed
-- [x] Progress documented in /files/process.docx
+- [x] Initial progress documented in /files/process.docx
 
 #### March 2018: ####
 --------------------------------------------------------------
+- [x] Complete hardware reset and reinstallation to bypass previous issues.
 - [x] TensorFlow succesfully operational with GPU Support:
   - [x] OS: Linux Ubuntu 16.04
          <details>
@@ -70,11 +71,15 @@ This is a repository for a semester course on using TensorFlow for image recogni
               'Hello, TensorFlow!'</i>
           </p>
          </details>
+- [ ] RasterVision Scripts
+- [ ] Rasterio Module
+- [ ] Run premade scripts to ensure succesful application of all software
 - [ ] Geological feature chosen for experiment
 - [ ] Sufficient satellite imagery collected
 
 #### April 2018: ####
 --------------------------------------------------------------
+- [ ] Able to import GeoJSON files correctly to script
 - [ ] Image recognition code produced
 - [ ] Algorithm trained and producing scores
 - [ ] Algortihm capable of identifying objects in images.
