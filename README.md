@@ -21,7 +21,7 @@ This is a repository for my semester project on using Google TensorFlow for Deep
          <summary>Modification</summary>
          <p>A slight modification in the Software & Updates panel is required. In the sub-menu <b>Additional drivers</b>, I had to disable the Ubuntu Nouveau display driver and instead opt for the program to the setting: <b>Using Nvidia binary - driver</b>. This makes sure that there is no driver conflict.</p>
          </details>
-  - [x] Handler: Anaconda Navigator 4.5.0
+  - [x] Anaconda Navigator: 4.5.0
          <details>
          <summary>Installation</summary>
         <p>Anaconda Navigator was downloaded from <a href="https://www.anaconda.com/download/#linux">their website</a> and    thereafter updated to version 4.5.0 by using the navigator automatic updating platform.</p>
@@ -42,7 +42,7 @@ This is a repository for my semester project on using Google TensorFlow for Deep
            ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}</b>
          </p>
          </details>
-  - [x] CuDNN: 7.0.5
+  - [x] cuDNN: 7.0.5
          <details>
          <summary>Installation</summary>
          <p>In order to download cuDNN, a Nvidia developer membership is required. This can freely be obtained by simply registrating on their website. I've done so and proceed to download the file at this <a href="https://developer.nvidia.com/rdp/cudnn-download">website</a>. The file I've used for this is the one labelled <a href="https://developer.nvidia.com/compute/machine-learning/cudnn/secure/v7.0.5/prod/9.0_20171129/Ubuntu16_04-x64/libcudnn7_7.0.5.15-1+cuda9.0_amd64">cuDNN v7.0.5 Runtime Library for Ubuntu16.04 (Deb)</a>. Once this file is downloaded. I double click it to initiate the software installer.</p>
