@@ -23,9 +23,8 @@ This is a repository for a semester course on using TensorFlow for image recogni
   - [x] Handler: Anaconda Navigator 4.5.0
        <details>
        <summary>Installation</summary>
-       <p>Anaconda Navigator was downloaded from <a href="https://www.anaconda.com/download/#linux">their website</a> and    thereafter updated to version 4.5.0 by using the navigator automatic updating platform. Then I proceeded to create a new  python environment in the Anaconda directory, to install TensorFlow into - which I name tensorflow. This was done by the using the command <b>"conda create -n tensorflow pip python=3.6" </b>. I then activate the newly created environment by typing <b>source activate tensorflow</b>. Now Anaconda is primed for TensorFlow to be installed. However, CUDA and CuDNN should installed first. </p>
+       <p>Anaconda Navigator was downloaded from <a href="https://www.anaconda.com/download/#linux">their website</a> and    thereafter updated to version 4.5.0 by using the navigator automatic updating platform.</p>
       </details>
-  - [x] Python: 3.6 - Installed in the Anaconda environment.
   - [x] CUDA: 
        <details>
        <summary>Installation</summary>
@@ -46,6 +45,11 @@ This is a repository for a semester course on using TensorFlow for image recogni
        <details>
        <summary>Installation</summary>
        <p>In order to download cuDNN, a Nvidia developer membership is required. This can freely be obtained by simply registrating on their website. I've done so and proceed to download the file at this <a href="https://developer.nvidia.com/rdp/cudnn-download">website</a>. The file I've used for this is the one labelled <a href="https://developer.nvidia.com/compute/machine-learning/cudnn/secure/v7.0.5/prod/9.0_20171129/Ubuntu16_04-x64/libcudnn7_7.0.5.15-1+cuda9.0_amd64">cuDNN v7.0.5 Runtime Library for Ubuntu16.04 (Deb)</a>. Once this file is downloaded. I double click it to initiate the software installer.</p>
+       </details>
+  - [x] Python: 3.6
+        <details>
+       <summary>Installation</summary>
+       <p>I have installed python3.6 through Anaconda Navigator by creating a new  python environment in the Anaconda directory, to install TensorFlow into - which I named tensorflow. This was done by the using the command <b>"conda create -n tensorflow pip python=3.6" </b>. I then activate the newly created environment by typing <b>source activate tensorflow</b>. Now Anaconda is primed for TensorFlow to be installed </p>
        </details>
   - [ ] TensorFlow:
        <details>
