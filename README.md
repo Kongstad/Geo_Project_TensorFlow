@@ -14,7 +14,7 @@ This is a repository for a semester course on using TensorFlow for image recogni
 
 #### March 2018: ####
 --------------------------------------------------------------
-- [ ] TensorFlow succesfully operational with GPU Support:
+- [x] TensorFlow succesfully operational with GPU Support:
   - [x] OS: Linux Ubuntu 16.04
          <details>
          <summary>Modification</summary>
@@ -55,6 +55,20 @@ This is a repository for a semester course on using TensorFlow for image recogni
           <details>
          <summary>Installation</summary>
          <p>Now in order to install Tensorflow, I use the following terminal command to install the GPU supported version <b>pip install --ignore-installed --upgrade https: //storage.googleapis.c om/tensorflow/linux/gpu/tensorflow_gpu-1.6.0-cp36-cp36m-linux_x86_64.whl</b> Note that this is the correct tensorflow for python 3.6, by its denomination cp36.</p>
+         </details>
+   - [x] Spyder Test:
+          <details>
+         <summary>Code Compilation</summary>
+         <p>In order to test whether TensorFlow is sucessfully working, I now compile a short "Hello, TensorFlow" test as given <a href="https://www.tensorflow.org/install/install_linux#run_a_short_tensorflow_program">here</a><br>
+           The code looks like this:<br>
+            <i>#Python<br>
+            import tensorflow as tf<br>
+            hello = tf.constant('Hello, TensorFlow!')<br>
+            sess = tf.Session()<br>
+            print(sess.run(hello))<br>
+            Which succesfully prints<br>
+              'Hello, TensorFlow!'</i>
+          </p>
          </details>
 - [ ] Geological feature chosen for experiment
 - [ ] Sufficient satellite imagery collected
