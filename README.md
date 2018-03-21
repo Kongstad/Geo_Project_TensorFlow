@@ -50,18 +50,18 @@ This is a repository for my semester project on using Google TensorFlow for Deep
   - [x] Python: 3.6
         <details>
         <summary>Installation</summary>
-        <p>I have installed python3.6 through Anaconda Navigator by creating a new  python environment in the Anaconda directory, to install TensorFlow into - which I named tensorflow. This was done by the using the command <b>"conda create -n tensorflow pip python=3.6" </b>. I then activate the newly created environment by typing <b>source activate tensorflow</b>. I then launch the Anaconda Navigator and install the Spyder editor in the tensorflow environment. With Anaconda now all setup, Tensorflow can be installed </p>
+        <p>I have installed python3.6 through Anaconda Navigator by creating a new  python environment in the Anaconda directory, to install TensorFlow into - which I named tensorflow. This was done by the using the command <b>"conda create -n tensorflow pip python=3.6" </b>. I then activate the newly created environment by typing <b>source activate tensorflow</b>. I then launch the Anaconda Navigator and install the Spyder editor in the tensorflow environment. With Anaconda now all set up, Tensorflow can be installed </p>
          </details>
   - [x] TensorFlow:
           <details>
          <summary>Installation</summary>
-         <p>Now in order to install Tensorflow, I use the following terminal command to install the GPU supported version <b>pip install --ignore-installed --upgrade https: //storage.googleapis.c om/tensorflow/linux/gpu/tensorflow_gpu-1.6.0-cp36-cp36m-linux_x86_64.whl</b> Note that this is the correct tensorflow for python 3.6, by its denomination cp36.</p>
+         <p>Now in order to install Tensorflow, I use the following terminal command to install the GPU supported version <b>pip install --ignore-installed --upgrade https: //storage.googleapis.c om/tensorflow/linux/gpu/tensorflow_gpu-1.6.0-cp36-cp36m-linux_x86_64.whl</b> Note that this is the correct TensorFlow for python 3.6, by its denomination cp36.</p>
          </details>
    - [x] Spyder Test:
           <details>
          <summary>Code Compilation</summary>
-         <p>In order to test whether TensorFlow is sucessfully working, I now compile a short "Hello, TensorFlow" test as given <a href="https://www.tensorflow.org/install/install_linux#run_a_short_tensorflow_program">here</a><br>
-           The code looks like this:<br>
+         <p>In order to test whether TensorFlow is sucessfully working, I now compile a short "Hello, TensorFlow" test as given <a href="https://www.tensorflow.org/install/install_linux#run_a_short_tensorflow_program">here</a>.<br>
+            The code looks like this:<br>
             <i>#Python<br>
             import tensorflow as tf<br>
             hello = tf.constant('Hello, TensorFlow!')<br>
@@ -90,7 +90,9 @@ This is a repository for my semester project on using Google TensorFlow for Deep
 
 
 ##### Student info: #####
-Name: Peter Kongstad  
-Field of study: Geoscience - 10th semester  
-University: Aarhus University
-Contact: kongstad@geo.au.dk
+<b>Name</b>: Peter Kongstad  
+<b>Field of study</b>: Geoscience - 10th semester  
+<b>University</b>: Aarhus University
+<b>Contact</b>: kongstad@geo.au.dk
+<b>Primary Supervisor</b>: Christoffer Karoff - Department of Geoscience & Department of Physics.
+<b>Secondary Supervisor</b>: Rune Hylsberg - Departmen of Engineering.
