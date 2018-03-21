@@ -14,7 +14,7 @@ This is a repository for my semester project on using Google TensorFlow for Deep
 
 #### March 2018: ####
 --------------------------------------------------------------
-- [x] Complete hardware reset and reinstallation to bypass previous issues.
+- [x] Complete hardware reset and reinstallation to bypass previous issues - See process.docx.
 - [x] TensorFlow succesfully operational with GPU Support:
   - [x] OS: Linux Ubuntu 16.04
          <details>
