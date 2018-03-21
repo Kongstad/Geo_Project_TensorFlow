@@ -36,7 +36,7 @@ This is a repository for my semester project on using Google TensorFlow for Deep
          3. sudo apt-key add /var/cuda-repo-9-0-local/7fa2af80.pub<br> 
          4. sudo apt-get update<br> 
          5. sudo apt-get install cuda</b><br>
-         I then proceed to the <a href="http://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html">CUDA installation documentation</a>, which states at point 7.1, that Some actions must be taken after the installation before the CUDA Toolkit and Driver can be used.<br> The PATH variable needs to include /usr/local/cuda-9.1/bin, so to add this path to the PATH variable, the following command needs to be entered in the terminal window:<br>
+         I then proceed to the <a href="http://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html">CUDA installation documentation</a>, which states at point 7.1, that some actions must be taken after the installation before the CUDA Toolkit and Driver can be used.<br> The PATH variable needs to include /usr/local/cuda-9.1/bin, so to add this path to the PATH variable, the following command needs to be entered in the terminal window:<br>
          <b> export PATH=/usr/local/cuda-9.1/bin${PATH:+:${PATH}}</b> In addition, when using the runfile installation method, the LD_LIBRARY_PATH variable needs to contain /usr/local/cuda-9.1/lib64 on a 64-bit system.To change the environment variables for 64-bit operating systems, enter the following in a terminal window:<br>
          <b> export LD_LIBRARY_PATH=/usr/local/cuda-9.1/lib64\
            ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}</b>
