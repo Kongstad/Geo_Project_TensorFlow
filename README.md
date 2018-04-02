@@ -74,6 +74,7 @@ This is a repository for my semester project on using Google TensorFlow for Deep
          
 #### April 2018: ####
 --------------------------------------------------------------
+- [x] Sentinelsat python module for ESA API Hub retrieval
 - [ ] RasterVision Scripts
 - [ ] Rasterio Module
 - [ ] Run premade scripts to ensure succesful application of all software
