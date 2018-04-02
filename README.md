@@ -71,14 +71,14 @@ This is a repository for my semester project on using Google TensorFlow for Deep
               'Hello, TensorFlow!'</i>
           </p>
          </details>
+         
+#### April 2018: ####
+--------------------------------------------------------------
 - [ ] RasterVision Scripts
 - [ ] Rasterio Module
 - [ ] Run premade scripts to ensure succesful application of all software
 - [ ] Geological feature chosen for experiment
 - [ ] Sufficient satellite imagery collected
-
-#### April 2018: ####
---------------------------------------------------------------
 - [ ] Able to import GeoJSON files correctly to script
 - [ ] Image recognition code produced
 - [ ] Algorithm trained and producing scores
