@@ -87,8 +87,12 @@ This is a repository for my semester project on using Google TensorFlow for Deep
 Pillow 1.0, lxml, tf Slim (which is included in the "tensorflow/models" checkout) and Matplotlib. The process is inadequately described and requires tinkering around and downloading their entire library. Later note: The PIL install doesn't work right unless activating the correct environment in the terminal and then proceeding to install image by pip install image. See the folder Files/src/testing/ for a jupyter file of the object detection tutorial output. I've succesfully ran it on my machine. 
           </p>
          </details>
-- [ ] Rasterio Module
+- [ ] Rasterio
 - [ ] Run premade scripts to ensure succesful application of all software
+      - [x] TensorFlow with GPU Support
+      - [ ] Sentinelsat API Import
+      - [x] RasterVision
+      - [ ] Rasterio
 - [ ] Geological feature chosen for experiment
 - [ ] Sufficient satellite imagery collected
 - [ ] Able to import GeoJSON files correctly to script
