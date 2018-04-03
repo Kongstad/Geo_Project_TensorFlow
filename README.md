@@ -10,7 +10,7 @@ This is a repository for my semester project on using Google TensorFlow for Deep
 --------------------------------------------------------------
 - [x] Project startup approved
 - [x] Basic TensorFlow tutorials completed
-- [x] Initial progress documented in /files/process.docx
+- [x] Initial progress documented in /files/process.pdf
 
 #### March 2018: ####
 --------------------------------------------------------------
