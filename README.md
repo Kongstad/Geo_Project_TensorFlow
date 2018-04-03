@@ -84,7 +84,7 @@ This is a repository for my semester project on using Google TensorFlow for Deep
          <details>
          <summary>Information</summary>
          <p> This module is found at https://github.com/azavea/raster-vision. It is currently under development and expected to be released in Summer 2018. The goal is to train and run deep learning models of satellite imagery and being able to make object detection viable through the TensorFlow Object Detection API. The reason for using this deep learning library is, that this one can handle GeoTIFF files and annotations/predictions are represented in geospatial coordinates, using the previously mentioned GeoJSON files. Installation of this module has to be done manually and there are several dependencies and documents to be downloaded manually through their github site here: https://github.com/azavea/raster-vision/tree/develop/src/tf/object_detection. Required libraries besides TensorFlow and Jupyter notebook are, Protobuf 2.6
-Pillow 1.0, lxml, tf Slim (which is included in the "tensorflow/models" checkout) and Matplotlib
+Pillow 1.0, lxml, tf Slim (which is included in the "tensorflow/models" checkout) and Matplotlib. The process is inadequately described and requires tinkering around and downloading their entire library. 
           </p>
          </details>
 - [ ] Rasterio Module
