@@ -77,7 +77,7 @@ This is a repository for my semester project on using Google TensorFlow for Deep
 - [x] Sentinelsat python module for ESA API Hub retrieval
          <details>
          <summary>Information</summary>
-         <p> This module enables the easy use of importing one or multiple images from a GeoJSON file. Essentially using https://geojson.io, one marks a polygon of the desired region. Then save it as a geoJSON file, which sentinelsat module in python can import and recognize.
+         <p> This module enables the easy use of importing one or multiple images from a GeoJSON file. Essentially using https://geojson.io, one marks a polygon of the desired region. Then save it as a geoJSON file, which sentinelsat module in python can import and recognize. Details on Sentinelsat module can be found at: http://sentinelsat.readthedocs.io/en/stable/api.html
           </p>
          </details>
 - [ ] RasterVision Scripts
