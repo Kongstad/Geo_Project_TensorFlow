@@ -80,7 +80,13 @@ This is a repository for my semester project on using Google TensorFlow for Deep
          <p> This module enables the easy use of importing one or multiple images from a GeoJSON file. Essentially using https://geojson.io, one marks a polygon of the desired region. Then save it as a geoJSON file, which sentinelsat module in python can import and recognize. Details on Sentinelsat module can be found at: http://sentinelsat.readthedocs.io/en/stable/api.html
           </p>
          </details>
-- [ ] RasterVision Scripts
+- [x] RasterVision
+         <details>
+         <summary>Information</summary>
+         <p> This module is found at https://github.com/azavea/raster-vision. It is currently under development and expected to be released in Summer 2018. The goal is to train and run deep learning models of satellite imagery and being able to make object detection viable through the TensorFlow Object Detection API. The reason for using this deep learning library is, that this one can handle GeoTIFF files and annotations/predictions are represented in geospatial coordinates, using the previously mentioned GeoJSON files. Installation of this module has to be done manually and there are several dependencies and documents to be downloaded manually through their github site here: https://github.com/azavea/raster-vision/tree/develop/src/tf/object_detection. Required libraries besides TensorFlow and Jupyter notebook are, Protobuf 2.6
+Pillow 1.0, lxml, tf Slim (which is included in the "tensorflow/models" checkout) and Matplotlib
+          </p>
+         </details>
 - [ ] Rasterio Module
 - [ ] Run premade scripts to ensure succesful application of all software
 - [ ] Geological feature chosen for experiment
