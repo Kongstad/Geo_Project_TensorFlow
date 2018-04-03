@@ -57,7 +57,7 @@ This is a repository for my semester project on using Google TensorFlow for Deep
          <summary>Installation</summary>
          <p>Now in order to install Tensorflow, I use the following terminal command to install the GPU supported version <b>pip install --ignore-installed --upgrade https: //storage.googleapis.c om/tensorflow/linux/gpu/tensorflow_gpu-1.6.0-cp36-cp36m-linux_x86_64.whl</b> Note that this is the correct TensorFlow for python 3.6, by its denomination cp36.</p>
          </details>
-   - [x] Spyder Test:
+  - [x] Spyder Test:
           <details>
          <summary>Code Compilation</summary>
          <p>In order to test whether TensorFlow is sucessfully working, I now compile a short "Hello, TensorFlow" test as given <a href="https://www.tensorflow.org/install/install_linux#run_a_short_tensorflow_program">here</a>.<br>
@@ -89,10 +89,10 @@ Pillow 1.0, lxml, tf Slim (which is included in the "tensorflow/models" checkout
          </details>
 - [ ] Rasterio
 - [ ] Run premade scripts to ensure succesful application of all software
-      - [x] TensorFlow with GPU Support
-      - [ ] Sentinelsat API Import
-      - [x] RasterVision
-      - [ ] Rasterio
+    - [x] TensorFlow with GPU Support
+    - [ ] Sentinelsat API Import
+    - [x] RasterVision
+    - [ ] Rasterio
 - [ ] Geological feature chosen for experiment
 - [ ] Sufficient satellite imagery collected
 - [ ] Able to import GeoJSON files correctly to script
