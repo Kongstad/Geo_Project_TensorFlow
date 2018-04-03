@@ -96,4 +96,4 @@ This is a repository for my semester project on using Google TensorFlow for Deep
 <b>University</b>: Aarhus University  
 <b>Contact</b>: kongstad@geo.au.dk  
 <b>Primary Supervisor</b>: Christoffer Karoff - Department of Geoscience & Department of Physics.  
-<b>Secondary Supervisor</b>: Rune Hylsberg - Departmen of Engineering.  
+<b>Secondary Supervisor</b>: Rune Hylsberg - Department of Engineering.  
