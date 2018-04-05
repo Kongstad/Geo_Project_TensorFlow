@@ -90,7 +90,7 @@ Pillow 1.0, lxml, tf Slim (which is included in the "tensorflow/models" checkout
 - [ ] Rasterio
 - [ ] Run premade scripts to ensure succesful application of all software
     - [x] TensorFlow with GPU Support
-    - [ ] Sentinelsat API Import
+    - [x] Sentinelsat API Import
     - [x] RasterVision
     - [ ] Rasterio
 - [ ] Geological feature chosen for experiment
