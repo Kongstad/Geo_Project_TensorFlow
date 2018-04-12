@@ -84,14 +84,14 @@ This is a repository for my semester project on using Google TensorFlow for Deep
          <details>
          <summary>Information</summary>
          <p> This module is found at https://github.com/azavea/raster-vision. It is currently under development and expected to be released in Summer 2018. The goal is to train and run deep learning models of satellite imagery and being able to make object detection viable through the TensorFlow Object Detection API. The reason for using this deep learning library is, that this one can handle GeoTIFF files and annotations/predictions are represented in geospatial coordinates, using the previously mentioned GeoJSON files. Installation of this module has to be done manually and there are several dependencies and documents to be downloaded manually through their github site here: https://github.com/azavea/raster-vision/tree/develop/src/tf/object_detection. Required libraries besides TensorFlow and Jupyter notebook are, Protobuf 2.6
-Pillow 1.0, lxml, tf Slim (which is included in the "tensorflow/models" checkout) and Matplotlib. The process is inadequately described and requires tinkering around and downloading their entire library. Later note: The PIL install doesn't work right unless activating the correct environment in the terminal and then proceeding to install image by pip install image. See the folder Files/src/testing/ for a jupyter file of the object detection tutorial output. I've succesfully ran it on my machine. 
+Pillow 1.0, lxml, tf Slim (which is included in the "tensorflow/models" checkout) and Matplotlib. The process is inadequately described and requires tinkering around and downloading their entire library. Later note: The PIL install doesn't work right unless activating the correct environment in the terminal and then proceeding to install image by pip install image. See the folder Files/jupyter-notebooks/ for a jupyter file of the object detection tutorial output. I've not authored this notebook, it's provided on the RasterVision github page. However, I did succesfully run it on my machine, indicating the install and object detection works as expected. 
           </p>
          </details>
 - [x] Rasterio
          <details>
          <summary>Information</summary>
         Rasterio is a tool for importing large Geo imbedded satellite images and can be installed by following this link -https://rasterio.readthedocs.io/en/latest/installation.html. <p> 
-  The module essentially allows for manipulation of the images. The RasterVision module is expecting to be able to provide this feature as well. But for the sake of exhausting all possibilities, I've tested this module on images imported through the Sentinelsat plugin. See the file rasterotest.py in the files section. I've created a notebook file that shows succesfully running the import from the Sentinel API module, straight into the Rasterio module where I decode the image and display it in it's varios bands. The notebook is found at /Files/src/testing/RasterioTest.ipynb
+  The module essentially allows for manipulation of the images. The RasterVision module is expecting to be able to provide this feature as well. But for the sake of exhausting all possibilities, I've tested this module on images imported through the Sentinelsat plugin. See the file rasterotest.py in the files section. I've created a notebook file that shows succesfully running the import from the Sentinel API module, straight into the Rasterio module where I decode the image and display it in it's varios bands. The notebook is found at /Files/jupyter-notebooks/RasterioTest.ipynb
          </details>
 - [x] Run premade scripts to ensure succesful application of all software
     - [x] TensorFlow with GPU Support
@@ -99,6 +99,10 @@ Pillow 1.0, lxml, tf Slim (which is included in the "tensorflow/models" checkout
     - [x] RasterVision
     - [x] Rasterio
 - [ ] Geological feature chosen for experiment
+        <details>
+        <summary>Information</summary> 
+        So far this has proven to be slightly difficult. The region of choice has a lot of ice even though I choose the summer periods. The high albedo of the snow, makes the images appear extremely white. I'm working on culling the intensity. But essentially icebergs in the fjord is the target
+        </details>
 - [x] Satellite Research
         <details>
         <summary>Information</summary> 
