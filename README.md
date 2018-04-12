@@ -91,7 +91,7 @@ Pillow 1.0, lxml, tf Slim (which is included in the "tensorflow/models" checkout
          <details>
          <summary>Information</summary>
         Rasterio is a tool for importing large Geo imbedded satellite images and can be installed by following this link -https://rasterio.readthedocs.io/en/latest/installation.html. <p> 
-  The module essentially allows for manipulation of the images. The RasterVision module is expecting to be able to provide this feature as well. But for the sake of exhausting all possibilities, I've tested this module on images imported through the Sentinelsat plugin. See the file rasterotest.py in the files section.
+  The module essentially allows for manipulation of the images. The RasterVision module is expecting to be able to provide this feature as well. But for the sake of exhausting all possibilities, I've tested this module on images imported through the Sentinelsat plugin. See the file rasterotest.py in the files section. I've created a notebook file that shows succesfully running the import from the Sentinel API module, straight into the Rasterio module where I decode the image and display it in it's varios bands. The notebook is found at /Files/src/testing/RasterioTest.ipynb
          </details>
 - [x] Run premade scripts to ensure succesful application of all software
     - [x] TensorFlow with GPU Support
