@@ -77,7 +77,7 @@ This is a repository for my semester project on using Google TensorFlow for Deep
 - [x] Sentinelsat python module for ESA API Hub retrieval
          <details>
          <summary>Information</summary>
-         <p> This module enables the easy use of importing one or multiple images from a GeoJSON file. Essentially using https://geojson.io, one marks a polygon of the desired region. Then save it as a geoJSON file, which sentinelsat module in python can import and recognize. Details on Sentinelsat module can be found at: http://sentinelsat.readthedocs.io/en/stable/api.html
+         <p> This module enables an easy way of importing one or multiple images from ESA, based on a GeoJSON file. Essentially using https://geojson.io, one marks a polygon of the desired region. Then save it as a geoJSON file, which sentinelsat module in python can import and recognize. Details on Sentinelsat module can be found at: http://sentinelsat.readthedocs.io/en/stable/api.html
           </p>
          </details>
 - [x] RasterVision
@@ -87,12 +87,17 @@ This is a repository for my semester project on using Google TensorFlow for Deep
 Pillow 1.0, lxml, tf Slim (which is included in the "tensorflow/models" checkout) and Matplotlib. The process is inadequately described and requires tinkering around and downloading their entire library. Later note: The PIL install doesn't work right unless activating the correct environment in the terminal and then proceeding to install image by pip install image. See the folder Files/src/testing/ for a jupyter file of the object detection tutorial output. I've succesfully ran it on my machine. 
           </p>
          </details>
-- [ ] Rasterio
-- [ ] Run premade scripts to ensure succesful application of all software
+- [x] Rasterio
+         <details>
+         <summary>Information</summary>
+        Rasterio is a tool for importing large Geo imbedded satellite images and can be installed by following this link -https://rasterio.readthedocs.io/en/latest/installation.html. <p> 
+  The module essentially allows for manipulation of the images. The RasterVision module is expecting to be able to provide this feature as well. But for the sake of exhausting all possibilities, I've tested this module on images imported through the Sentinelsat plugin.
+         </details>
+- [x] Run premade scripts to ensure succesful application of all software
     - [x] TensorFlow with GPU Support
     - [x] Sentinelsat API Import
     - [x] RasterVision
-    - [ ] Rasterio
+    - [x] Rasterio
 - [ ] Geological feature chosen for experiment
 - [x] Satellite Research
         <details>
