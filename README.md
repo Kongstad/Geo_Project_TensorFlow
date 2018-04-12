@@ -96,8 +96,8 @@ Pillow 1.0, lxml, tf Slim (which is included in the "tensorflow/models" checkout
 - [ ] Geological feature chosen for experiment
 - [x] Satellite Research
         <details>
-        <summary>For this project there are two satellite series of primary interest. The Sentinel-1 satellites and the Sentinel-2 satellites. The Sentinel-1 satellites provide Synthetic Aperature Radar(SAR) images. Whilst the Sentinel-2 satellites are Multi Spectrum Imaging(MSI) satellites. Whilst S1 can provide height information, see through clouds and without light. It is not desireable to use these maps for the testing purpose of the TensorFlow software. On the other hand the S2 satellites provide 13 bands ranging from 443 nm and up to 2190 nm. This provides an array of tools for detection of several things. However for the sake of image recognition, band 2,3 and 4 - the RGB bands, will be used.
-        </summary>
+        <summary>Information</summary> 
+        For this project there are two satellite series of primary interest. The Sentinel-1 satellites and the Sentinel-2 satellites. The Sentinel-1 satellites provide Synthetic Aperature Radar(SAR) images. Whilst the Sentinel-2 satellites are Multi Spectrum Imaging(MSI) satellites. Whilst S1 can provide height information, see through clouds and without light. It is not desireable to use these maps for the testing purpose of the TensorFlow software. On the other hand the S2 satellites provide 13 bands ranging from 443 nm and up to 2190 nm. This provides an array of tools for detection of several things. However for the sake of image recognition, band 2,3 and 4 - the RGB bands, will be used.
         </details>
 - [x] Create and import GeoJSON files to script
 - [ ] Image recognition code produced
