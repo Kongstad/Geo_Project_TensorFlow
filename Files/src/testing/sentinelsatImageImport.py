@@ -14,4 +14,4 @@ products = api.query(footprint,
 
 api.to_geojson(products)
 # download all results from the search
-api.download_all(products,'sentinel2images/')
+#api.download_all(products,'sentinel2images/')
