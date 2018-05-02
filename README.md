@@ -98,7 +98,7 @@ Pillow 1.0, lxml, tf Slim (which is included in the "tensorflow/models" checkout
     - [x] Sentinelsat API Import
     - [x] RasterVision
     - [x] Rasterio
-- [ ] Geological feature chosen for experiment
+- [x] Geological feature chosen for experiment
         <details>
         <summary>Information</summary> 
         So far this has proven to be slightly difficult. The region of choice has a lot of ice even though I choose the summer periods. The high albedo of the snow, makes the images appear extremely white. I'm working on culling the intensity. But essentially icebergs in the fjord is the target
