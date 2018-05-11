@@ -118,9 +118,12 @@ Pillow 1.0, lxml, tf Slim (which is included in the "tensorflow/models" checkout
         <summary>Information</summary> 
         The initial technique of using the Sentinelsat API tool for image retrieval, seems to be undesirable at this point in time. There are three major hurdles in using this technique so far. 1) The immense file size of requesting 1 photo at a given location. In these zipped folders, there are all 13 bands, as well as several datafiles. This can easily produce file sizes above 1.3 gb. When in reality the desired product was an image at the size of 122 mb. 2) ESA throttles their servers download speed. Putting a 1.3 gb file download time to more than 30 minutes, at a very reasonable broadband connection (50/50 mbit). They are simply limiting the outgoing server speeds. 3) The images are often extremely bright as a product of the snow albedo. Image brightness can ofcourse be reduced. Conclusion: I suggest for this pilot project, that the focus is on getting the image recognition going, rather than dealing with image retrieval and editing technicalities. Hence I've concluded it is better to use their online sentinel hub website (EO Browser). The images I require can be loaded up in less than 10 seconds and several parameters can be defined. Such as format, with or without georeference, quality, coordinate system and band/layers. I've decided to proceed with this method for the sake of proceeding in reasonable time.
         </details>
-- [ ] Image recognition code produced
-- [ ] Algorithm trained and producing scores
-- [ ] Algortihm capable of identifying objects in images.
+- [ ] Image recognition methods used on iceberg images
+    - [x] TensorFlow Tutorial
+            <details>
+             <summary>Information</summary> 
+             </details>
+    - [ ] RasterVision
 - [ ] Conclusion of project and finishing of GitHub setup
 
 
