@@ -122,6 +122,7 @@ Pillow 1.0, lxml, tf Slim (which is included in the "tensorflow/models" checkout
     - [x] TensorFlow Tutorial
             <details>
              <summary>Information</summary> 
+             I've used the image classifier tutorial listed on the TensorFlow website and then applied their code to the retrieved satellite imagery. This is a simple test where only 1 image is chosen, then compared to a large online database. The trick here is for TensorFlow to categorise as much as possible, then listing the top 5 objects how often the algorithm guessed it wrong. Testing on several images, it was able to say that the image contained icebergs and seashores. However it also misclassified other objects as killer whales, geysers and a Newfoundland Dog. To the algorithm credit, it guessed the seashore wrong only 2 % of the time. I've uploaded a Jupyter Notebook about 
              </details>
     - [ ] RasterVision
 - [ ] Conclusion of project and finishing of GitHub setup
