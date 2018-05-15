@@ -12,7 +12,7 @@ Geological Project - Investigating the use of Google TensorFlow for image recogn
 #### Description: ####
 This is a repository for my semester project on using Google TensorFlow for Deep Neural Network learning, Raster Vision for object detection on GeoJSON files, Rasterio for data handling and several others. The end goal is to test the software and conclude on wether or not it is the desireable choice for the follow-up project. Through this readme document, I've written how-to's and conclusions on using the individual software, as well as documenting the complications that arose. A conlusion on this feasibility study can be found at the bottom of this page.
 
-### Project overview: ###
+### Project Timeline: ###
 
 #### February 2018: ####
 --------------------------------------------------------------
