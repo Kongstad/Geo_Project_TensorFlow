@@ -131,11 +131,6 @@ Pillow 1.0, lxml, tf Slim (which is included in the "tensorflow/models" checkout
           For this project I've investigated both semantic segmentation and object recognition. For simplicity the object recognition seems at first to be the easiest method. By simply creating a bounding box around the ice in the images. However, for the follow-up project, it seems evident that the semantic segmentation is the way forward. This is due to the complexity of the follow up project. Whilst identifying 1 or 5 classes in a picture may be preferential in simplistic images. Working with large satellite imagery and trying to define small features, then pixelwise recognition may prove more fruitful. In comparision, visually, this means that when we want to detect an object, it will not be covered by a bounding box, but rather the entire object will be marked - pixel by pixel. <br>
 Semantic segmentation works by understanding an image at the pixel level. Thus by assigning each pixel in an image to an object class. 
            </details>
-    - [ ] U-net
-          <details>
-          <summary>Information</summary> 
-          I've 
-           </details>
 - [ ] Project Conclusion
       <details>
       <summary>Information</summary> 
