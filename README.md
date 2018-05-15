@@ -90,7 +90,7 @@ This is a repository for my semester project on using Google TensorFlow for Deep
          <details>
          <summary>Information</summary>
         Rasterio is a tool for importing large Geo imbedded satellite images and can be installed by following this <a href="https://rasterio.readthedocs.io/en/latest/installation.html">link</a> <p> 
-  The module essentially allows for manipulation of the images. The RasterVision module is expecting to be able to provide this feature as well. But for the sake of exhausting all possibilities, I've tested this module on images imported through the Sentinelsat plugin. See the file <b>rasterotest.py</b> in the files section. I've created a notebook that shows  a succesfully running script of which import data via the Sentinel API module, straight into the Rasterio module where I decode the image and display it in it's varios bands. The notebook is found at <b>/Files/jupyter-notebooks/RasterioTest.ipynb</b>
+  The module essentially allows for manipulation of the images. The RasterVision module is expecting to be able to provide this feature as well. But for the sake of exhausting all possibilities, I've tested this module on images imported through the Sentinelsat plugin. See the file <b>rasterotest.py</b> in the files section. I've created a notebook that shows the imported data (via the Sentinel API module), applied straight into the Rasterio module, where I decode the image and display it in it's varios bands. The notebook is found at <b>/Files/jupyter-notebooks/RasterioTest.ipynb</b>
          </details>
 - [x] Run premade scripts to ensure succesful application of all software
     - [x] TensorFlow with GPU Support
