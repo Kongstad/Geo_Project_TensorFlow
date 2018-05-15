@@ -146,10 +146,10 @@ This is a repository for my semester project on using Google TensorFlow for Deep
           For this project I've investigated both semantic segmentation and object recognition. For simplicity the object recognition seems at first to be the easiest method. By simply creating a bounding box around the ice in the images. However, for the follow-up project, it seems evident that the semantic segmentation is the way forward. This is due to the complexity of the follow up project. Whilst identifying 1 or 5 classes in a picture may be preferential in simplistic images. Working with large satellite imagery and trying to define small features, then pixelwise recognition may prove more fruitful. In comparision, visually, this means that when we want to detect an object, it will not be covered by a bounding box, but rather the entire object will be marked - pixel by pixel. <br>
 Semantic segmentation works by understanding an image at the pixel level. Thus by assigning each pixel in an image to an object class. 
            </details>
-- [x] Project Conclusion
-      <details>
-      <summary>Information</summary> 
-     <b>Introduction</b><br>
+
+#### Conclusion: ####
+--------------------------------------------------------------
+   <b>Introduction</b><br>
 For this feasibility project, I have utilized the TensorFlow DNN software and it’s associated products, enabling the usage of GPU support for faster calculation of the algorithms. This with the aim, of using Convolutional Neural Network techniques in image recognition. To start out with, I was tasked with making the TensorFlow software run along with its associated software and modules. Secondly I was tasked with testing out different methods of data retrieval and management, which I will conclude on in this section. Lastly I was to attempt simple image recognition of the satellite imagery obtained. Through this section I comment superficially on the important aspects and take-aways. For a more thorough comment on process, complications and solutions. Check the individual points in the above section of this readme file.<br><br>
      <b>Installation:</b><br>
 The first task of this project, was to get the GPU support up and running with TensorFlow, which is from here on denoted simply as “TF”. As there is little to no direct guidance provided by the TF team, this is not a trivial task. The different softwares have to be installed in a specific order, or conflict can arise. 
