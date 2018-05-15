@@ -127,6 +127,11 @@ Pillow 1.0, lxml, tf Slim (which is included in the "tensorflow/models" checkout
              <summary>Information</summary> 
              I've used the image classifier tutorial listed on the TensorFlow website and then applied their code to the retrieved satellite imagery. This is a simple test where only 1 image is chosen, then compared to a large online database. The trick here is for TensorFlow to categorise as much as possible, then listing the top 5 objects and how often the algorithm guessed it right - Actually the error % rate. Testing on several images, it was able to say that the image contained icebergs and seashores. However it also misclassified other objects as killer whales, geysers and a Newfoundland Dog. To the algorithms credit, it guessed the seashore wrong only 2 % of the time. I've uploaded a Jupyter Notebook about with a little more details. It can be found at /Files/jupyter-notebooks/TF_IR_tut.ipynb 
              </details>
+     - [x] Object Detection Tutorial
+            <details>
+             <summary>Information</summary> 
+            I have changed the object detection tutorial as provided by the RasterVision library to run a satellite image with a large ice sheet flowing. Initially it was problematic as the models didn't seem to recognize anything, as it did in the demo tutorial (the object detection tutorial notebook mentioned earlier). I realised a different model was required and tried changing between several different models. These models can be found at the TensorFlow github page right <a href="https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md">here</a> By switching the model to "faster_rcnn_inception_resnet_v2_atrous_oid_2018_01_28", I was finally able to get the large icesheet framed. I've produced a jupyter notebook of it which can be found at <b>/Files/jupyter-notebooks/TF_IR_tut.ipynb </b>
+             </details>
 - [x] Follow-up investigation   
     - [x] Semantic Segmentation vs. Object recognition
           <details>
