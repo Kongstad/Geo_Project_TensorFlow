@@ -1,8 +1,8 @@
 ## Project name: ##
-Geological Project - Employing Google TensorFlow for image recognition of satellite imagery.
+Geological Project - Investigating the use of Google TensorFlow for image recognition of satellite imagery.
 
 #### Description: ####
-This is a repository for my semester project on using Google TensorFlow for Deep Neural Learning, Raster Vision for object detection on GeoJSON files and Rasterio for data handling. The end goal is to create a script that allows for image recognition of satellite imagery and documenting the process here.  
+This is a repository for my semester project on using Google TensorFlow for Deep Neural Network learning, Raster Vision for object detection on GeoJSON files, Rasterio for data handling and several others. The end goal is to test the software and conclude on wether or not it is the desireable choice for the follow-up project. Through this readme document, I've written how-to's and conclusions on using the individual software, as well as documenting the complications that arose. At the end I have written a report with a conclusion and my idea on how to proceed from here on.
 
 ### Project overview: ###
 
@@ -118,14 +118,28 @@ Pillow 1.0, lxml, tf Slim (which is included in the "tensorflow/models" checkout
         <summary>Information</summary> 
         The initial technique of using the Sentinelsat API tool for image retrieval, seems to be undesirable at this point in time. There are three major hurdles in using this technique so far. 1) The immense file size of requesting 1 photo at a given location. In these zipped folders, there are all 13 bands, as well as several datafiles. This can easily produce file sizes above 1.3 gb. When in reality the desired product was an image at the size of 122 mb. 2) ESA throttles their servers download speed. Putting a 1.3 gb file download time to more than 30 minutes, at a very reasonable broadband connection (50/50 mbit). They are simply limiting the outgoing server speeds. 3) The images are often extremely bright as a product of the snow albedo. Image brightness can ofcourse be reduced. Conclusion: I suggest for this pilot project, that the focus is on getting the image recognition going, rather than dealing with image retrieval and editing technicalities. Hence I've concluded it is better to use their online sentinel hub website (EO Browser). The images I require can be loaded up in less than 10 seconds and several parameters can be defined. Such as format, with or without georeference, quality, coordinate system and band/layers. I've decided to proceed with this method. 15 images have been selected so far and can be found here /Files/images/. 
         </details>
-- [ ] Image recognition methods used on iceberg images
+- [x] Image recognition methods used on iceberg images
     - [x] TensorFlow Tutorial Test
             <details>
              <summary>Information</summary> 
              I've used the image classifier tutorial listed on the TensorFlow website and then applied their code to the retrieved satellite imagery. This is a simple test where only 1 image is chosen, then compared to a large online database. The trick here is for TensorFlow to categorise as much as possible, then listing the top 5 objects and how often the algorithm guessed it right - Actually the error % rate. Testing on several images, it was able to say that the image contained icebergs and seashores. However it also misclassified other objects as killer whales, geysers and a Newfoundland Dog. To the algorithms credit, it guessed the seashore wrong only 2 % of the time. I've uploaded a Jupyter Notebook about with a little more details. It can be found at /Files/jupyter-notebooks/TF_IR_tut.ipynb 
              </details>
-    - [ ] RasterVision
-- [ ] Conclusion of project and finishing of GitHub setup
+- [ ] Further investigation   
+    - [ ] Semantic Segmentation
+          <details>
+          <summary>Information</summary> 
+          I've 
+           </details>
+    - [ ] U-net
+          <details>
+          <summary>Information</summary> 
+          I've 
+           </details>
+- [ ] Project Conclusion
+      <details>
+      <summary>Information</summary> 
+      I've 
+      </details>
 
 
 #### Student info: #####
