@@ -162,13 +162,13 @@ The TF_IR_tut.ipynb is a modified TF official tutorial, where the satellite imag
 The object_detection_tutorial_iceberg.ipynb is of little more interest. In this I was able to use an old iteration of RasterVision, to identify the large ice sheet in the image with a bounding box. This is the object orientated recognition described in the paragraph above. This particular model fails at identifying the minor ice sheets though. <br><br>
 <b>Summary:</b><br>
 Through this feasibility study I have managed to effectively configure and apply all the software and successfully produce results in all of the software and modules included. I have speculated and argued on what works and what should be brought forward to the follow-up project. This has also lead to the, for now, dismissal of the RasterVision module. At least until it is finished. Regardless, as object orientation is not immediately useful for the follow-up project, I see no reason to continue investigation in this module, and rather pursue semantic segmentation methods.
-The positive take away from this project have been as follows:<br>
-      1.Proof-of-concept with regards to TensorFlow Image Recognition.<br>
-      2.Successful API data import methods<br>
-      3.Successful image manipulation in Rasterio<br>
-      4.Dismissal of RasterVision<br>
-      5.Positive indication of the Semantic Segmentation method.<br>
-      6.Experience with the whole method of operation <br>
+The positive take away from this project have been as follows:<br><br>
+    -  1.Proof-of-concept with regards to TensorFlow Image Recognition.<br>
+    -  2.Successful API data import methods<br>
+    -  3.Successful image manipulation in Rasterio<br>
+    -  4.Dismissal of RasterVision<br>
+    -  5.Positive indication of the Semantic Segmentation method.<br>
+    -  6.Experience with the whole method of operation <br><br>
 The path forward now lies in a complete evaluation and understanding of DNN methodology, FCN and U-net architecture and of how we can benefit from this. It is also imperative that an understanding is gained on the new data, knowing the additional dimension the data provided in the follow-up project will bring to the overall project.  
       </details>
 
