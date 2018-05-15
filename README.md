@@ -2,7 +2,7 @@
 Geological Project - Investigating the use of Google TensorFlow for image recognition of satellite imagery.
 
 #### Description: ####
-This is a repository for my semester project on using Google TensorFlow for Deep Neural Network learning, Raster Vision for object detection on GeoJSON files, Rasterio for data handling and several others. The end goal is to test the software and conclude on wether or not it is the desireable choice for the follow-up project. Through this readme document, I've written how-to's and conclusions on using the individual software, as well as documenting the complications that arose. At the end I have written a report with a conclusion and my idea on how to proceed from here on.
+This is a repository for my semester project on using Google TensorFlow for Deep Neural Network learning, Raster Vision for object detection on GeoJSON files, Rasterio for data handling and several others. The end goal is to test the software and conclude on wether or not it is the desireable choice for the follow-up project. Through this readme document, I've written how-to's and conclusions on using the individual software, as well as documenting the complications that arose. A conlusion on this feasibility study can be found at the bottom of this page.
 
 ### Project overview: ###
 
@@ -19,7 +19,7 @@ This is a repository for my semester project on using Google TensorFlow for Deep
   - [x] OS: Linux Ubuntu 16.04
          <details>
          <summary>Modification</summary>
-         <p>A slight modification in the Software & Updates panel is required. In the sub-menu <b>Additional drivers</b>, I had to disable the Ubuntu Nouveau display driver and instead opt for the program to the setting: <b>Using Nvidia binary - driver</b>. This makes sure that there is no driver conflict.</p>
+         <p>A slight modification in the Software & Updates panel is required. In the sub-menu <b>Additional drivers</b>, I had to disable the Ubuntu Nouveau display driver and instead set it to: <b>Using Nvidia binary - driver</b>. This makes sure that there is no driver conflict.</p>
          </details>
   - [x] Anaconda Navigator: 4.5.0
          <details>
@@ -77,21 +77,21 @@ This is a repository for my semester project on using Google TensorFlow for Deep
 - [x] Sentinelsat python module for ESA API Hub retrieval
          <details>
          <summary>Information</summary>
-         <p> This module enables an easy way of importing one or multiple images from ESA, based on a GeoJSON file. Essentially using https://geojson.io, one marks a polygon of the desired region. Then save it as a geoJSON file, which sentinelsat module in python can import and recognize. Details on Sentinelsat module can be found at: http://sentinelsat.readthedocs.io/en/stable/api.html
+         <p> This module enables an easy way of importing one or multiple images from ESA, based on a GeoJSON file. Essentially using https://geojson.io, you mark a polygon of the desired region. Then save it as a geoJSON file, which sentinelsat module in python can import and recognize. Details on Sentinelsat module can be found at: http://sentinelsat.readthedocs.io/en/stable/api.html
           </p>
          </details>
 - [x] RasterVision
          <details>
          <summary>Information</summary>
          <p> This module is found at https://github.com/azavea/raster-vision. It is currently under development and expected to be released in Summer 2018. The goal is to train and run deep learning models of satellite imagery and being able to make object detection viable through the TensorFlow Object Detection API. The reason for using this deep learning library is, that this one can handle GeoTIFF files and annotations/predictions are represented in geospatial coordinates, using the previously mentioned GeoJSON files. Installation of this module has to be done manually and there are several dependencies and documents to be downloaded manually through their github site here: https://github.com/azavea/raster-vision/tree/develop/src/tf/object_detection. Required libraries besides TensorFlow and Jupyter notebook are, Protobuf 2.6
-Pillow 1.0, lxml, tf Slim (which is included in the "tensorflow/models" checkout) and Matplotlib. The process is inadequately described and requires tinkering around and downloading their entire library. Later note: The PIL install doesn't work right unless activating the correct environment in the terminal and then proceeding to install image by pip install image. See the folder Files/jupyter-notebooks/ for a jupyter file of the object detection tutorial output. I've not authored this notebook, it's provided on the RasterVision github page. However, I did succesfully run it on my machine, indicating the install and object detection works as expected. 
+Pillow 1.0, lxml, tf Slim (which is included in the "tensorflow/models" checkout) and Matplotlib. The process is inadequately described and requires tinkering around and downloading their entire library. Later note: The PIL install doesn't work right unless activating the correct environment in the terminal and then proceeding to install image by <b>pip install image</b>. <b>See the folder Files/jupyter-notebooks/</b> for a jupyter file of the object detection tutorial output. I've not authored this notebook, it's provided on the RasterVision github page. However, I did succesfully run it on my machine, indicating the install and object detection works as expected. Yet running it with satellite imagery doesn't seem fruitful at this stage, as the model used in this tutorial, doesn't seem to box in icebergs very well. 
           </p>
          </details>
 - [x] Rasterio
          <details>
          <summary>Information</summary>
         Rasterio is a tool for importing large Geo imbedded satellite images and can be installed by following this link -https://rasterio.readthedocs.io/en/latest/installation.html. <p> 
-  The module essentially allows for manipulation of the images. The RasterVision module is expecting to be able to provide this feature as well. But for the sake of exhausting all possibilities, I've tested this module on images imported through the Sentinelsat plugin. See the file rasterotest.py in the files section. I've created a notebook file that shows succesfully running the import from the Sentinel API module, straight into the Rasterio module where I decode the image and display it in it's varios bands. The notebook is found at /Files/jupyter-notebooks/RasterioTest.ipynb
+  The module essentially allows for manipulation of the images. The RasterVision module is expecting to be able to provide this feature as well. But for the sake of exhausting all possibilities, I've tested this module on images imported through the Sentinelsat plugin. See the file <b>rasterotest.py</b> in the files section. I've created a notebook that shows  a succesfully running script of which import data via the Sentinel API module, straight into the Rasterio module where I decode the image and display it in it's varios bands. The notebook is found at <b>/Files/jupyter-notebooks/RasterioTest.ipynb</b>
          </details>
 - [x] Run premade scripts to ensure succesful application of all software
     - [x] TensorFlow with GPU Support
@@ -101,15 +101,18 @@ Pillow 1.0, lxml, tf Slim (which is included in the "tensorflow/models" checkout
 - [x] Geological feature chosen for experiment
         <details>
         <summary>Information</summary> 
-        So far this has proven to be slightly difficult. The region of choice has a lot of ice even though I choose the summer periods. The high albedo of the snow, makes the images appear extremely white. I'm working on culling the intensity. But essentially icebergs in the fjord is the target. I've come to discover that the region have a period of ca. 2.5 months from late july to mid october, where in the ice is at a minimum as well as the cloud cover. I've designated 15 days of perfect conditions.
+        So far this has proven to be slightly difficult. The region of choice has a lot of ice even though I have chosen the summer periods. The high albedo of the snow makes the images appear extremely white. I'm working on culling the intensity. But essentially icebergs in the fjord is the target for this study. I've come to discover that the region have a period of ca. 2.5 months from late july to mid october, where in the ice is at a minimum as well as the cloud cover is reduced. I've designated 15 days of perfect conditions and have therefore stored 15 images in the images folder.
         </details>
 - [x] Satellite Research
         <details>
         <summary>Information</summary> 
-        For this project there are two satellite series of primary interest. The Sentinel-1 satellites and the Sentinel-2 satellites. The Sentinel-1 satellites provide Synthetic Aperature Radar(SAR) images. Whilst the Sentinel-2 satellites are Multi Spectrum Imaging(MSI) satellites. Whilst S1 can provide height information, see through clouds and gather data without light. It is not desirable to use these maps for the testing purpose of the TensorFlow software in this part of the project. On the other hand, the S2 satellites provides 13 bands ranging from 443 nm and up to 2190 nm. This provides an array of tools for detection of several things such as biosphere, visible light, aerosols and much more. However for the sake of image recognition, band 2,3 and 4 - the RGB bands, will be used in this project. Its also of interest to note that the images comes at different processing levels. I have used the level 1C images here, as they are most suitable for the project. They include radiometric and geometric corrections, ortho-rectification and spatial registration on a global reference system. Also cloud and land/water masks are generated. For the follow-up project, the level-2A may be of more interest, as it comes with more processed masks and several outputs. More information about Level 1 and Level 2 processed images can be found here: https://sentinel.esa.int/web/sentinel/user-guides/sentinel-2-msi/processing-levels/level-2
+        For this project there are two satellite series of primary interest. The Sentinel-1 and the Sentinel-2 satellites. The Sentinel-1 satellites provide Synthetic Aperature Radar(SAR) images. Whilst the Sentinel-2 satellites are Multi Spectrum Imaging(MSI) satellites. Whilst S1 can provide height information, see through clouds and gather data without light. It is not desirable to use these maps for the testing purpose of the TensorFlow software in this part of the project. On the other hand, the S2 satellites provides 13 bands ranging from 443 nm and up to 2190 nm. This provides an array of tools for detection of several things such as biosphere, visible light, aerosols and much more. However for the sake of image recognition, band 2,3 and 4 - the RGB bands, will be used in this project. Its also of interest to note that the images comes at different processing levels. I have used the level 1C images here, as they are most suitable for the current project. They include radiometric and geometric corrections, ortho-rectification and spatial registration on a global reference system. Also cloud and land/water masks are generated. For the follow-up project, the level-2A may be of more interest, as it comes with more processed masks and several outputs. More information about Level 1 and Level 2 processed images can be found here: https://sentinel.esa.int/web/sentinel/user-guides/sentinel-2-msi/processing-levels/level-2
         </details>
 - [x] Create and import GeoJSON files to script
-
+        <details>
+        <summary>Information</summary>
+        GeoJSON file can very easily be created at this website: https://geojson.io. Once a desirable shape have been drawn up and saved, the file can be imported into python. I have created a 4-sided polygon, defining the region of which I am interested in, in regards to downloading satellite imagery. Once the script executes, it will only import images that have a georeference within this polygon.
+        </details>
 
 #### May 2018: ####
 --------------------------------------------------------------
@@ -124,7 +127,7 @@ Pillow 1.0, lxml, tf Slim (which is included in the "tensorflow/models" checkout
              <summary>Information</summary> 
              I've used the image classifier tutorial listed on the TensorFlow website and then applied their code to the retrieved satellite imagery. This is a simple test where only 1 image is chosen, then compared to a large online database. The trick here is for TensorFlow to categorise as much as possible, then listing the top 5 objects and how often the algorithm guessed it right - Actually the error % rate. Testing on several images, it was able to say that the image contained icebergs and seashores. However it also misclassified other objects as killer whales, geysers and a Newfoundland Dog. To the algorithms credit, it guessed the seashore wrong only 2 % of the time. I've uploaded a Jupyter Notebook about with a little more details. It can be found at /Files/jupyter-notebooks/TF_IR_tut.ipynb 
              </details>
-- [ ] Further investigation   
+- [x] Follow-up investigation   
     - [x] Semantic Segmentation vs. Object recognition
           <details>
           <summary>Information</summary> 
