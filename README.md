@@ -1,6 +1,14 @@
 ## Project name: ##
 Geological Project - Investigating the use of Google TensorFlow for image recognition of satellite imagery.
 
+#### Student info: #####
+<b>Name</b>: Peter Kongstad  
+<b>Field of study</b>: Geoscience - 8th semester  
+<b>University</b>: Aarhus University  
+<b>Contact</b>: kongstad@geo.au.dk  
+<b>Primary Supervisor</b>: Christoffer Karoff - Department of Geoscience & Department of Physics.  
+<b>Secondary Supervisor</b>: Rune Hylsberg - Department of Engineering.  
+
 #### Description: ####
 This is a repository for my semester project on using Google TensorFlow for Deep Neural Network learning, Raster Vision for object detection on GeoJSON files, Rasterio for data handling and several others. The end goal is to test the software and conclude on wether or not it is the desireable choice for the follow-up project. Through this readme document, I've written how-to's and conclusions on using the individual software, as well as documenting the complications that arose. A conlusion on this feasibility study can be found at the bottom of this page.
 
@@ -169,11 +177,3 @@ The positive take away from this project have been as follows:<br><br>
 The path forward now lies in a complete evaluation and understanding of DNN methodology, FCN and U-net architecture and of how we can benefit from this. It is also imperative that an understanding is gained on the new data, knowing the additional dimension the data provided in the follow-up project will bring to the overall project. In the following months I will partake in Deep Learning course CS231n as recommended by PhD Jacob, as well as study exercises provided. I also argue that it might be beneficial to add QGIS to the toolbox, as this could become useful when data from the exploration company is added. Therefore I'd like to explore QGIS aswell before the follow-up project.
       </details>
 
-
-#### Student info: #####
-<b>Name</b>: Peter Kongstad  
-<b>Field of study</b>: Geoscience - 8th semester  
-<b>University</b>: Aarhus University  
-<b>Contact</b>: kongstad@geo.au.dk  
-<b>Primary Supervisor</b>: Christoffer Karoff - Department of Geoscience & Department of Physics.  
-<b>Secondary Supervisor</b>: Rune Hylsberg - Department of Engineering.  
