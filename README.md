@@ -140,7 +140,7 @@ Semantic segmentation works by understanding an image at the pixel level. Thus b
            </details>
 - [x] Project Conclusion
       <details>
-      <summary>Unfold</summary> 
+      <summary>Information</summary> 
      <b>Introduction</b><br>
 For this feasibility project, I have utilized the TensorFlow DNN software and it’s associated products, enabling the usage of GPU support for faster calculation of the algorithms. This with the aim, of using Convolutional Neural Network techniques in image recognition. To start out with, I was tasked with making the TensorFlow software run along with its associated software and modules. Secondly I was tasked with testing out different methods of data retrieval and management, which I will conclude on in this section. Lastly I was to attempt simple image recognition of the satellite imagery obtained. Through this section I comment superficially on the important aspects and take-aways. For a more thorough comment on process, complications and solutions. Check the individual points in the above section of this readme file.<br><br>
      <b>Installation:</b><br>
@@ -169,7 +169,6 @@ The positive take away from this project have been as follows:<br><br>
     -  Dismissal of RasterVision<br>
     -  Positive indication of the Semantic Segmentation method.<br>
     -  Experience with the whole method of operation <br><br>
-  
 The path forward now lies in a complete evaluation and understanding of DNN methodology, FCN and U-net architecture and of how we can benefit from this. It is also imperative that an understanding is gained on the new data, knowing the additional dimension the data provided in the follow-up project will bring to the overall project.  
       </details>
 
