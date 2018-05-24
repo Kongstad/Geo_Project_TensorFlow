@@ -12,7 +12,7 @@ Geological Project - Investigating the use of Google TensorFlow for image recogn
 #### Project description: ####
 This is a repository for my semester project on using Google TensorFlow for Deep Neural Network learning, Raster Vision for object detection on GeoJSON files, Rasterio for data handling and several others. The end goal is to test the software and conclude on wether or not it is the desireable choice for the follow-up project. Through this readme document, I've written how-to's and conclusions on using the individual software, as well as documenting the complications that arose. A conlusion on this feasibility study can be found at the bottom of this page.
 
-#### Software description: ####
+#### Software introduction: ####
 - [x] Anaconda Navigator
          <details>
          <summary>Information</summary>
@@ -21,27 +21,27 @@ Anaconda is not an essential product for this project. However it does make it e
 - [x] CUDA 9.0
          <details>
          <summary>Information</summary>
-CUDA is a parallel computing platform and programming model which utilizes the GPU in general purpose computing tasks. In general the software allows for using the powerful computing cores in a graphics processor for doing mathematical calculations. This allows for a strong increase in computing performance over the conventional CPU. More information can be found at <a href="http://www.nvidia.com/object/io_69526.html">Nvidia's CUDA Zone</a>
+CUDA (Compute Unified Device Architecture) is a parallel computing platform and programming model which utilizes the GPU in general purpose computing tasks. In general the software allows for using the powerful computing cores in a graphics processor for doing mathematical calculations. This allows for a strong increase in computing performance over the conventional CPU. More information can be found at <a href="http://www.nvidia.com/object/io_69526.html">Nvidia's CUDA Zone</a>
          </details>
 - [x] cuDNN
          <details>
          <summary>Information</summary>
-CU
+cuDNN is a shortened form of CUDA Deep Neural Network library. It is a library for deep neural networks which provides GPU accelerated functionality. This library provides implementations for the common methods of DNN; such as forward/backward convolution, normalization, pooling and activation layers. This software makes the project easier as the GPU performance is setup and configured to run with Tensorflow. According to Nvidia's developer page, the newest version of 7.0 and above, which is used in this project, have 3x faster training performance than previous versions.
          </details>
 - [x] Python 3.6
          <details>
          <summary>Information</summary>
-CU
+Python is an interpreted, object oriented, high-level programming language. It has a wide array of usages and is very often utilized in our field by scientist and researchers, but can readily be applicable by anyone. Python is relatively simple and fast programming language with a manageable learning curve. For this project version 3.6 have been applied. This version is the most recent major release and have proved it self to be stable and greatly backed by a large number of modules. TensorFlow recommends using above 3.5 for GPU-supported application.
          </details>
 - [x] TensorFlow
          <details>
          <summary>Information</summary>
-CU
+TensorFlow is an open-source software library for computation and displaying data flow graphs. The software architecture is very flexible, meaning that it allows for computation between several platforms such as CPU's, GPU's and TPU's(Tensor Processing Unit). Besides spanning platforms, it also allows for distributing the mathematic load over several desktops to clusters of servers and mobile devices. TensorFlow is generally build for machine learning and deep learning, and the software is already widely applied across scientific branches. Since TensorFlow is able to display graphs of the structure of the models being run, it is easier to get the full view of a given model. The graph is a data structure which describes the computation that a model performs. Thus it is easier to discern an outcome, study it and fine tune further development of the model. TensorFlow already provides several pre-trained models on their GitHub page. These models can be freely downloaded and applied. Which I've shown in the iceberg example, which is further discussed further down this page.
          </details>
 - [x] Spyder IDE
          <details>
          <summary>Information</summary>
-CU
+Spyder is an open source cross-platform Integrated Development Environment, tailored for scientific programming in conjunction with the Python language. It comes with advanced editing, interactive testing and debuggig. Spyder also hosts a numerical computing environment, due to the support of IPython, which is an enhanced interactive python interpreter. Spyder further integrates well-known modules such as NumPy(Linear Algebra), SciPy(Signal and image processing), Matplotlib(interactive 2D/3D plotting) and much more. It is also an integral part of the Anaconda Navigator, which allows for easy interplay between environments and Spyder can therefore be installed into each environment as required.
          </details>
          
 ### Project Timeline: ###
