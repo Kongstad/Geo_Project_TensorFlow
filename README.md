@@ -118,7 +118,7 @@ This is a repository for my semester project on using Google TensorFlow for Deep
 - [x] Create and import GeoJSON files to script
         <details>
         <summary>Information</summary>
-        GeoJSON file can very easily be created at this website: https://geojson.io. Once a desirable shape have been drawn up and saved, the file can be imported into python. I have created a 4-sided polygon, defining the region of which I am interested in, in regards to downloading satellite imagery. Once the script executes, it will only import images that have a georeference within this polygon.
+        GeoJSON file can very easily be created at this website: https://geojson.io. Bare in mind, that the website may show up as unsafe, thus you have to bypass the security in your browser window. Once a desirable shape have been drawn up and saved, the file can be imported into python. I have created a 4-sided polygon, defining the region of which I am interested in, in regards to downloading satellite imagery. Once the script executes, it will only import images that have a georeference within this polygon.
         </details>
 
 #### May 2018: ####
