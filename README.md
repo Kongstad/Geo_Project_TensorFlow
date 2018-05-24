@@ -21,7 +21,7 @@ Anaconda is not an essential product for this project. However it does make it e
 - [x] CUDA 9.0
          <details>
          <summary>Information</summary>
-CUDA (Compute Unified Device Architecture) is a parallel computing platform and programming model which utilizes the GPU in general purpose computing tasks. In general the software allows for using the powerful computing cores in a graphics processor for doing mathematical calculations. This allows for a strong increase in computing performance over the conventional CPU. More information can be found at <a href="http://www.nvidia.com/object/io_69526.html">Nvidia's CUDA Zone</a>
+CUDA (Compute Unified Device Architecture) is a parallel computing platform and programming model which utilizes the GPU in general purpose computing tasks. In general the software allows for the use of the powerful computing cores in a graphics processor for doing mathematical calculations. This allows for a strong increase in computing performance over the conventional CPU. More information can be found at <a href="http://www.nvidia.com/object/io_69526.html">Nvidia's CUDA Zone</a>
          </details>
 - [x] cuDNN
          <details>
