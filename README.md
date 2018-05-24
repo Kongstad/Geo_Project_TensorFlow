@@ -26,7 +26,7 @@ CUDA (Compute Unified Device Architecture) is a parallel computing platform and 
 - [x] cuDNN
          <details>
          <summary>Information</summary>
-cuDNN is a shortened form of CUDA Deep Neural Network library. It is a library for deep neural networks which provides GPU accelerated functionality. This library provides implementations for the common methods of DNN; such as forward/backward convolution, normalization, pooling and activation layers. This software makes the project easier as the GPU performance is setup and configured to run with Tensorflow. According to Nvidia's developer page, the newest version of 7.0 and above, which is used in this project, have 3x faster training performance than previous versions.
+cuDNN is a shortened form of CUDA Deep Neural Network library. It is a library for deep neural networks which provides GPU accelerated functionality. This library provides implementations for the common methods of DNN; such as forward/backward convolution, normalization, pooling and activation layers. This software makes streamlines processes of optimization, as the GPU performance is already set up and configured to run with Tensorflow. According to Nvidia's developer page, the newest version of 7.0 and above, which is used in this project, have 3x faster training performance than previous versions.
          </details>
 - [x] Python 3.6
          <details>
