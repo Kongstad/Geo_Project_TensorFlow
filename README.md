@@ -85,7 +85,7 @@ This is a repository for my semester project on using Google TensorFlow for Deep
 - [x] Sentinelsat python module for ESA API Hub retrieval
          <details>
          <summary>Information</summary>
-         <p> This module enables an easy way of importing one or multiple images from ESA, based on a GeoJSON file. Essentially using https://geojson.io, you mark a polygon of the desired region. Then save it as a geoJSON file, which sentinelsat module in python can import and recognize. Details on Sentinelsat module can be found <a href="http://sentinelsat.readthedocs.io/en/stable/api.html">here</a>
+         <p> This module enables an easy way of importing one or multiple images from ESA, based on a GeoJSON file. Essentially using https://geojson.io (Note: The website may show up as unsafe, thus you have to bypass the security in your browser window), you mark a polygon of the desired region. Then save it as a geoJSON file, which sentinelsat module in python can import and recognize. Details on Sentinelsat module can be found <a href="http://sentinelsat.readthedocs.io/en/stable/api.html">here</a>
           </p>
          </details>
 - [x] RasterVision
@@ -118,7 +118,7 @@ This is a repository for my semester project on using Google TensorFlow for Deep
 - [x] Create and import GeoJSON files to script
         <details>
         <summary>Information</summary>
-        GeoJSON file can very easily be created at this website: https://geojson.io. Bare in mind, that the website may show up as unsafe, thus you have to bypass the security in your browser window. Once a desirable shape have been drawn up and saved, the file can be imported into python. I have created a 4-sided polygon, defining the region of which I am interested in, in regards to downloading satellite imagery. Once the script executes, it will only import images that have a georeference within this polygon.
+        GeoJSON file can very easily be created at this website: https://geojson.io. (Note: The website may show up as unsafe, thus you have to bypass the security in your browser window). Once a desirable shape have been drawn up and saved, the file can be imported into python. I have created a 4-sided polygon, defining the region of which I am interested in, in regards to downloading satellite imagery. Once the script executes, it will only import images that have a georeference within this polygon.
         </details>
 
 #### May 2018: ####
