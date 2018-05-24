@@ -18,7 +18,7 @@ This is a repository for my semester project on using Google TensorFlow for Deep
          <summary>Information</summary>
 Anaconda is not an essential product for this project. However it does make it easier to create and manage python environments as desired. Therefore it can be useful for setting up a main environment, with the most basic required modules installed for TensorFlow applications. Then this environment can be cloned for experimental purposes without the risk of jeopardizing the original environment. Besides python environment managing, this software is also very useful in terms of adding new modules and installing the Spyder IDE and Jupyter Notebook.
          </details>
-- [x] CUDA 9.0
+- [x] CUDA
          <details>
          <summary>Information</summary>
 CUDA (Compute Unified Device Architecture) is a Nvidia developed parallel computing platform and programming model which utilizes the GPU in processing algorithms. In general the software allows for the use of the powerful computing cores in a graphics processor for doing mathematical calculations. This allows for a strong increase in computing performance over the conventional CPU. This is entirely essential for our project, as we intended to utilize the full power of the Nvidia 1080 card. More information can be found at <a href="http://www.nvidia.com/object/io_69526.html">Nvidia's CUDA Zone</a>
