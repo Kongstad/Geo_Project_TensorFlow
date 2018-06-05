@@ -21,7 +21,7 @@ Anaconda is not an essential product for this project. However it does make it e
 - [x] CUDA
          <details>
          <summary>Information</summary>
-CUDA (Compute Unified Device Architecture) is a Nvidia developed parallel computing platform and programming model which utilizes the GPU in processing algorithms. In general the software allows for the use of the powerful computing cores in a graphics processor for doing calculations. This allows for a strong increase in computing performance over the conventional CPU. This is entirely essential for our project, as we intend to utilize the full power of the Nvidia 1080 card. More information can be found at <a href="http://www.nvidia.com/object/io_69526.html">Nvidia's CUDA Zone</a>
+CUDA (Compute Unified Device Architecture) is a Nvidia developed parallel computing platform and programming model which utilizes the GPU in processing algorithms. In general the software allows for the use of the powerful computing cores in a graphics processor for doing calculations. This allows for a strong increase in computing performance over the conventional CPU. This is entirely essential for our project, as we intend to utilize the full capacity of the Nvidia 1080 card. More information can be found at <a href="http://www.nvidia.com/object/io_69526.html">Nvidia's CUDA Zone</a>
          </details>
 - [x] cuDNN
          <details>
