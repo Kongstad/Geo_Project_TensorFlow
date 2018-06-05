@@ -16,7 +16,7 @@ This is a repository for my semester project on using Google TensorFlow for Deep
 - [x] Anaconda Navigator
          <details>
          <summary>Information</summary>
-Anaconda is not an essential product for this project. However it does make it easier to create and manage python environments as desired. Therefore it can be useful for setting up a main environment, with the most basic required modules installed for TensorFlow applications. Then this environment can be cloned for experimental purposes without the risk of jeopardizing the original environment. Besides python environment managing, this software is also very useful in terms of adding new modules and installing the Spyder IDE and Jupyter Notebook.
+Anaconda makes it easier to create and manage python environments as desired. Therefore it can be useful for setting up a main environment, with the most basic required modules installed for TensorFlow applications. Then this environment can be cloned for experimental purposes without the risk of jeopardizing the original environment. Besides python environment managing, this software is also very useful in terms of adding new modules and installing the Spyder IDE and Jupyter Notebook. Not an essential product, but definitely a useful one.
          </details>
 - [x] CUDA
          <details>
