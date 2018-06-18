@@ -79,7 +79,7 @@ Spyder is an open source cross-platform Integrated Development Environment, tail
          I then proceed to the <a href="http://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html">CUDA installation documentation</a>, which states at point 7.1, that some actions must be taken after the installation before the CUDA Toolkit and Driver can be used.<br> The PATH variable needs to include /usr/local/cuda-9.1/bin, so to add this path to the PATH variable, the following command needs to be entered in the terminal window:<br>
          <b> export PATH=/usr/local/cuda-9.1/bin${PATH:+:${PATH}}</b> In addition, when using the runfile installation method, the LD_LIBRARY_PATH variable needs to contain /usr/local/cuda-9.1/lib64 on a 64-bit system.To change the environment variables for 64-bit operating systems, enter the following in a terminal window:<br>
          <b> export LD_LIBRARY_PATH=/usr/local/cuda-9.1/lib64\
-           ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}</b>
+           ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}</b> The installation can then be verified by typing the following into a terminal window: "nvcc -V".
          </p>
          </details>
   - [x] cuDNN: 7.0.5
